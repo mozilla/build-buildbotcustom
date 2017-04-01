@@ -72,7 +72,7 @@ MozillaEnvironments['win32-ref-platform'] = {
 
 MozillaEnvironments['linux-unittest'] = {
     "MOZ_NO_REMOTE": '1',
-    "DISPLAY": ':2',
+    "DISPLAY": ':0',
     "NO_FAIL_ON_TEST_ERRORS": '1',
     "CCACHE_DIR": '/builds/ccache',
     "CCACHE_UMASK": '002',
